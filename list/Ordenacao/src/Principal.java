@@ -7,10 +7,10 @@ public class Principal {
 		//Teste ordenação de pessoas
 		OrdenacaoPessoas op = new OrdenacaoPessoas();
 		
-		op.adicionarPessoa("Raphael", 26, 1.65);
-		op.adicionarPessoa("Natalia", 25, 1.59);
-		op.adicionarPessoa("Wemilly", 26, 1.78);
-		op.adicionarPessoa("Vinicius", 27, 1.82);
+		op.adicionarPessoa("João", 26, 1.65);
+		op.adicionarPessoa("Maria", 25, 1.59);
+		op.adicionarPessoa("Valentina", 26, 1.78);
+		op.adicionarPessoa("Enzo", 27, 1.82);
 		
 		System.out.println(op.pessoas);
 		System.out.println(op.ordenarPorIdade());
